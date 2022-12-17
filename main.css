@@ -1,0 +1,79 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap"); */
+body {
+  background-image: url(../clouds-2329680_1280.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Montserrant", sans-serif;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1175px;
+  margin: 0 auto;
+  padding: 20px 15px;
+}
+.weather__item {
+  font-weight: 300;
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 100px;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 300px;
+  background: rgba(249, 249, 249, 0.2);
+  border-radius: 14px;
+}
+
+.padding {
+  padding: 50px 80px;
+}
+.city {
+  font-weight: 500;
+  font-size: 30px;
+  color: rgb(14, 11, 11);
+  margin-bottom: 25px;
+}
+.date {
+  font-weight: 500;
+  font-size: 20px;
+  color: rgb(14, 11, 11);
+  margin-bottom: 25px;
+}
+.temp {
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 50px;
+  color: rgb(14, 11, 11);
+  margin-bottom: 25px;
+}
+.weather {
+  margin-bottom: 25px;
+  font-weight: 500;
+  font-size: 30px;
+  color: rgb(14, 11, 11);
+  margin-bottom: 25px;
+}
+.tem {
+  font-weight: 500;
+  font-size: 30px;
+  color: rgb(14, 11, 11);
+  margin-bottom: 25px;
+}
+.input {
+  align-items: center;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 15px;
+  font-size: 20px;
+  font-weight: 300;
+  background-color: rgba(14, 11, 11, 0.8);
+  transition: 0.2s ease-out;
+}
+.input:focus {
+  background-color: rgba(255, 255, 255, 0.8);
+}
